@@ -100,7 +100,7 @@ git checkout main
 
 **Ejemplo práctica: **
 
-![git_checkout](imagenes/chechout.png)
+![git_checkout](imagenes/checkout.png)
 
 
 ### git flow
