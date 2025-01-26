@@ -1,0 +1,42 @@
+#Introducción
+A continuación, se explican una serie de comandos utilizados en la primera práctica. Las capturas de los logs obtenidos de cada uno de ellos pueden verse en el README.md del re-
+positorio.
+
+## ¿Para qué se usa el git fork?
+Mediante el fork se ha creado un nuevo repositorio igual que el original (main, en este caso). Es decir, hemos creado una bifurcación del código donde podremos editar el código y realizar distintos cambios para, más tarde, propornerlos al repositorio remoto (mediante un pull request). El repositorio bifurcado es un nuevo repositorio que será completamente independiente del repositorio original del que se hizo el fork.
+
+## ¿Para qué se usa el git clone?
+Este comando ha servido para clonar el repositorio remoto de la url dada. De esta manera, se ha creado una copia local en Codespace para poder acceder y editar los archivos que contiene. Estos cambios se podrán sincronizar con el repositorio remoto más adelante (mediante commits).
+```bash
+git clone https://github.com/MariaBegara/p1
+´´´
+
+## ¿Para qué se usa el git status?
+Nos permite visualizar las discrepanciaas que existen entre el directorio de trabajo y del área del entorno de ensayo. Se ha empleado para verificar si la rama estaba o no actualizada con el repositorio; se ha comprobado si era necesario hacer un add de los cambios para más tarde hacer un commit.
+```bash
+git status
+´´´
+
+## ¿Para qué se utiliza git add?
+Permite añadir los cambios que se quieren actualizar al repositorio desde el área del entorno de ensayo. Se puede seleccionar un único camboi o todos (git add .).
+```bash
+git add .
+´´´
+
+## ¿Para qué se utiliza git commit?
+Se emplea para actualizar los cambios. Para añadir una etiqueta que defina dicho cambio, se debe añadir "-m mensaje".
+```bash
+git commit -m "añadir git.txt"
+´´´
+
+##¿Para qué se utiliza git push?
+Permite subir los cambios actualizados con un commit al repositorio remoto.
+```bash
+git push
+´´´
+
+## ¿Para qué se utiliza git checkout?
+Se utiliza para poder ir de una rama a otra del repositorio.
+```bash
+git checkout main
+´´´
