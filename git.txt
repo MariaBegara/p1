@@ -1,6 +1,5 @@
 # Introducción
-A continuación, se explican una serie de comandos utilizados en la primera práctica. Las capturas de los logs obtenidos de cada uno de ellos pueden verse en el README.md del re-
-positorio.
+A continuación, se explican una serie de comandos utilizados en la primera práctica. Las capturas de los logs obtenidos de cada uno de ellos pueden verse en el README.md del repositorio.
 
 ## ¿Para qué se usa el git fork?
 Mediante el fork se ha creado un nuevo repositorio igual que el original (main, en este caso). Es decir, hemos creado una bifurcación del código donde podremos editar el código y realizar distintos cambios para, más tarde, propornerlos al repositorio remoto (mediante un pull request). El repositorio bifurcado es un nuevo repositorio que será completamente independiente del repositorio original del que se hizo el fork.
