@@ -1,4 +1,4 @@
-#Introducción
+# Introducción
 A continuación, se explican una serie de comandos utilizados en la primera práctica. Las capturas de los logs obtenidos de cada uno de ellos pueden verse en el README.md del re-
 positorio.
 
